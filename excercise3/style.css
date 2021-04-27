@@ -1,0 +1,21 @@
+h1 #header{
+   background-color:lightgray;
+}
+.item1{
+ color: aquamarine;
+}
+.item2{
+   color:rgb(183, 211, 80);
+}
+.p1, .p2 {
+   color:maroon;
+}
+.p1 {
+   font-size: 30px;
+}
+#header {inline}
+
+#main {
+   background-color: lightgrey;
+}
+

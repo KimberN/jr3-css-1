@@ -1,0 +1,61 @@
+/*
+1. Create an external file named style.css and link it to this file.
+           All css will be written in the external file.
+        2. Give all the div a blue border
+        3. Give all the paragrahs a purple border, a grey background, and a 15px padding
+        4. On the divs, have the padding top and bottom be 15px
+        5. Make sure that all the paragraphs have a margin of 30px between them.
+           This means the paragraph below should be 30px from the one above it.
+        6. Make box1 have a height of 200px. Any content that is outside the box should be viewable scroll.
+        7. Make box2 have a height of 400px and a width of 400px.
+        8. Any content that is bigger than the box2 should be hidden. */
+
+body{
+   background-color: rgb(107, 148, 225);
+}        
+div {
+   border: solid blue;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 15px 0px 15px 0px;
+}
+
+.container {
+   border-width: 2px;
+   border: solid blue;
+   
+}
+p {
+   border-color:purple;
+   background-color: grey;
+   padding: 15px;
+   border-width: 2px;
+}
+
+.box1 {
+ 
+}
+
+.box2{
+   width: 400px;
+   height: 400px;
+   overflow:hidden;
+}
+.one {
+   color:blueviolet
+}
+
+.two {
+   color:orange;
+}
+div.box1{
+   border-color: blue;
+   background-color: red;
+   height: 200px;
+   width: 600px;
+   overflow-x: hidden;
+   overflow-y: auto;
+}
+img {
+   width:600px;
+   height:400px;
+}
